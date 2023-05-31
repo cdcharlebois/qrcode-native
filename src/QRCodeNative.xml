@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.qrcodenative.QRCodeNative" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>QRCode Native</name>
+    <description>Render a QR code in a Mendix native app</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="text" type="expression" defaultValue="">
+              <caption>QR Code Value</caption>
+              <description></description>
+              <returnType type="String" />
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
